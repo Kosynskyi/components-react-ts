@@ -4,7 +4,7 @@
     "jsx": "preserve",
     "module": "commonjs",
     "lib": ["dom", "es6", "dom.iterable", "scripthost"],
-    // "outDir": "./dist",
+    "outDir": "./dist",
     "rootDir": "./src",
     "removeComments": true,
     "noEmitOnError": true,
