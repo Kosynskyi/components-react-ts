@@ -16,7 +16,7 @@ const root = client_1.default.createRoot(document.getElementById('root'));
 root.render(<react_1.default.StrictMode>
     <react_redux_1.Provider store={store_1.store}>
       <react_2.PersistGate loading={null} persistor={store_2.persistor}>
-        <react_router_dom_1.BrowserRouter basename="/components-react-ts">
+        <react_router_dom_1.BrowserRouter basename="/components-react-ts/">
           <App_1.default />
         </react_router_dom_1.BrowserRouter>
       </react_2.PersistGate>
